@@ -19,15 +19,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* 狗狗圖片樣式 */
-.dog-image {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 /* 狗狗名字樣式 */
 .dog-name {
   font-size: 24px;
@@ -35,10 +26,20 @@ body {
   margin: 10px 0;
 }
 
+/* 狗狗圖片樣式 */
+.dog-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* 圖片下方空隙 */
+}
+
 /* 分隔線樣式 */
 .divider {
   width: 50%;
   height: 2px;
   background-color: #ddd;
-  margin: 20px auto 0 auto; /* 上方空間 20px */
+  margin: 0 auto;
 }
