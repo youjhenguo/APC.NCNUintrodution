@@ -43,3 +43,29 @@ body {
   background-color: #ddd;
   margin: 0 auto;
 }
+
+/* 導覽列樣式 */
+.navbar {
+  background-color: #333; /* 深色背景 */
+  padding: 10px 0; /* 上下內距 */
+  text-align: center; /* 置中按鈕 */
+  position: sticky; /* 頁面滾動時固定在頂部 */
+  top: 0;
+  z-index: 1000; /* 保證在其他元素上方 */
+}
+
+/* 按鈕樣式 */
+.nav-button {
+  color: white; /* 按鈕文字顏色 */
+  background-color: #555; /* 按鈕背景 */
+  padding: 10px 20px; /* 內距調整按鈕大小 */
+  margin: 0 10px; /* 按鈕間距 */
+  text-decoration: none; /* 移除連結的底線 */
+  border-radius: 5px; /* 圓角邊框 */
+  font-size: 16px; /* 文字大小 */
+}
+
+/* 按鈕滑鼠懸停樣式 */
+.nav-button:hover {
+  background-color: #777; /* 懸停時變亮 */
+}
