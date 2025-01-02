@@ -95,15 +95,15 @@ body.starry-sky {
 .stars::after {
   content: "";
   position: absolute;
-  width: 2px;
-  height: 2px;
-  background: white;
-  border-radius: 50%;
+  width: 2px; /* 星星大小 */
+  height: 2px; /* 星星大小 */
+  background: white; /* 星星顏色 */
+  border-radius: 50%; /* 圓形星星 */
   box-shadow: 
-    100px 200px white, 
-    200px 300px white, 
-    400px 500px white;
-  animation: twinkle 2s infinite;
+    100px 200px white, 200px 100px white, 300px 400px white, 
+    400px 300px white, 500px 500px white, 600px 200px white, 
+    700px 700px white, 800px 300px white, 900px 600px white;
+  animation: twinkle 2s infinite; /* 星星閃爍動畫 */
 }
 
 
