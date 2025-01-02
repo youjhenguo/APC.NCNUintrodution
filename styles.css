@@ -40,5 +40,5 @@ body {
   width: 50%;
   height: 2px;
   background-color: #ddd;
-  margin: 0 auto;
+  margin: 20px auto 0 auto; /* 上方空間 20px */
 }
