@@ -1,0 +1,44 @@
+/* 設定全域樣式 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* 設定主要容器 */
+.dog-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 每隻狗狗的區塊樣式 */
+.dog-profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* 狗狗圖片樣式 */
+.dog-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 狗狗名字樣式 */
+.dog-name {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* 分隔線樣式 */
+.divider {
+  width: 50%;
+  height: 2px;
+  background-color: #ddd;
+  margin: 0 auto;
+}
