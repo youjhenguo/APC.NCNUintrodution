@@ -72,8 +72,8 @@ body {
 
 h6 {
   text-align: left;
-  margin-left: 20px; /* 增加左邊距 */
-  font-size: 14px;   /* 設定字體大小 */
+  margin-left: 40px; /* 增加左邊距 */
+  font-size: 12px;   /* 設定字體大小 */
   color: #2f4f4f;       /* 設定文字顏色 */
 }
 
