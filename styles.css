@@ -116,4 +116,8 @@ body.starry-sky {
     opacity: 0.3; /* 閃爍時暗淡 */
   }
 }
+/* 限定父容器 .left-aligned 內的 <h6> 靠左 */
+.left-aligned h6 {
+  text-align: left;
+}
 
