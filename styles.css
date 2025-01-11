@@ -70,54 +70,10 @@ body {
   background-color: #777; /* 懸停時變亮 */
 }
 
-/* 夜空背景樣式 */
-body.starry-sky {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #000428, #004e92); /* 深藍漸層 */
-  overflow: hidden; /* 隱藏超出範圍的內容 */
-  color: white; /* 頁面文字為白色 */
-  height: 100vh; /* 滿屏高度 */
-}
-
-/* 星星容器 */
-.stars {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden; /* 隱藏超出範圍的內容 */
-}
-
-/* 每顆星星的樣式 */
-.stars::before,
-.stars::after {
-  content: "";
-  position: absolute;
-  width: 2px; /* 星星大小 */
-  height: 2px; /* 星星大小 */
-  background: white; /* 星星顏色 */
-  border-radius: 50%; /* 圓形星星 */
-  box-shadow: 
-    100px 200px white, 200px 100px white, 300px 400px white, 
-    400px 300px white, 500px 500px white, 600px 200px white, 
-    700px 700px white, 800px 300px white, 900px 600px white;
-  animation: twinkle 2s infinite; /* 星星閃爍動畫 */
-}
-
-
-/* 星星閃爍動畫 */
-@keyframes twinkle {
-  0%, 100% {
-    opacity: 0.8; /* 閃爍時明亮 */
-  }
-  50% {
-    opacity: 0.3; /* 閃爍時暗淡 */
-  }
-}
-/* 限定父容器 .left-aligned 內的 <h6> 靠左 */
-.left-aligned h6 {
+h6 {
   text-align: left;
+  margin-left: 20px; /* 增加左邊距 */
+  font-size: 14px;   /* 設定字體大小 */
+  color: #2f4f4f;       /* 設定文字顏色 */
 }
 
